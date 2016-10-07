@@ -76,8 +76,8 @@ gulp.task('sass', function () {
 gulp.task('jade', function(){
     return gulp.src('_pugfiles/*.pug')
     .pipe(pug())
-    .pipe(gulp.dest('_includes'))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('_includes'));
+
 });
 
 
@@ -88,7 +88,7 @@ gulp.task('jade', function(){
  */
 gulp.task('watch', function () {
     gulp.watch('assets/css/**', ['sass']);
-    gulp.watch(['*.html', '_layouts/*.html', '_includes/*'], ['jekyll-rebuild']);
+    gulp.watch(['*.html', '_layouts/*.html', '_includes/*', '_posts/*'], ['jekyll-rebuild']);
     gulp.watch('_pugfiles/*.pug', ['jade']);
     gulp.watch('assets/js/**', ['jekyll-rebuild']);
     gulp.watch('assets/images/**', ['jekyll-rebuild']);

@@ -1,13 +1,19 @@
-html
-  head
-    link(rel='stylesheet' href='assets/css/main.css)')
+.wrapper-out
+  ul.menu-bar
+    li.createBank
+      button Create Bank
+    li.showAll
+      button Show All
+    li.generate_keys
+      button Generate Keys
+    li.logout
+      button Logout
 
-body
-  .wrapper-out
-    button.logout Logout
-    .new-bank
-      input.name(type='text', value='Bank Name')
-      button.create Create
-    .list-of-banks
-      .bank-name
-      .keys
+  .content
+
+
+    .create
+      input(type='text', value= 'Bank Name')
+      button Submit
+    .show
+    .generate
