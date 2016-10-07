@@ -81,7 +81,7 @@
     .wrapper-out .menu-bar li {
       display: inline; }
       .wrapper-out .menu-bar li button {
-        width: 125px;
+        width: 150px;
         height: 25px;
         border: none;
         cursor: pointer;
@@ -94,7 +94,7 @@
           color: white;
           border-right: 2px solid; }
   .wrapper-out .content {
-    width: 500px;
+    width: 600px;
     height: 100vh;
     background-color: #dddada;
     border-top: 2px solid white; }
