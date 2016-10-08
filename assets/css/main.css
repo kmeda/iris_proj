@@ -56,72 +56,63 @@
       font-family: 'Fira sans';
       font-size: 0.8em; }
 
-.wrapper-out {
+.content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
-  .wrapper-out .menu-bar {
+          justify-content: center;
+  width: 80%;
+  height: 100vh;
+  background-color: #dddada;
+  margin-left: auto;
+  margin-right: auto; }
+  .content #tabs ul {
     list-style-type: none;
     margin: 0;
-    padding: 0; }
-    .wrapper-out .menu-bar li {
+    padding: 0;
+    border-bottom: 1px solid white; }
+    .content #tabs ul li {
       display: inline; }
-      .wrapper-out .menu-bar li button {
+      .content #tabs ul li button {
         width: 150px;
         height: 25px;
         border: none;
         cursor: pointer;
-        outline: none; }
-        .wrapper-out .menu-bar li button:hover {
+        outline: none;
+        font-size: 0.75em;
+        margin-left: 2px; }
+        .content #tabs ul li button:hover {
           background-color: #6c6868;
           color: white; }
-        .wrapper-out .menu-bar li button:focus {
+        .content #tabs ul li button:focus {
           background-color: #3d3d3d;
           color: white;
-          border-right: 2px solid; }
-  .wrapper-out .content {
-    width: 600px;
-    height: 100vh;
-    background-color: #dddada;
-    border-top: 2px solid white; }
-
-.create {
-  margin-top: 100px;
-  margin-left: 50px; }
-  .create input {
-    width: 350px;
-    height: 20px;
-    padding-left: 5px; }
-  .create button {
-    height: 24px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    margin: 0; }
-    .create button:hover {
-      background-color: #6c6868;
-      color: white; }
-    .create button:focus {
-      background-color: #3d3d3d;
-      color: white;
-      border-right: 2px solid; }
-
-.show, .generate {
-  display: none; }
+          border-bottom: 1px solid white; }
+  .content #tabs-1 {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px; }
+    .content #tabs-1 input {
+      width: 350px;
+      height: 20px;
+      padding-left: 5px;
+      color: #7c7c7c; }
+    .content #tabs-1 button {
+      height: 24px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      margin: 0 0 0 3px; }
+      .content #tabs-1 button:hover {
+        background-color: #6c6868;
+        color: white; }
+      .content #tabs-1 button:focus {
+        background-color: #3d3d3d;
+        color: white; }
 
 body {
   margin: 0;
