@@ -1,19 +1,23 @@
-.wrapper-out
-  ul.menu-bar
-    li.createBank
-      button Create Bank
-    li.showAll
-      button Show All
-    li.generate_keys
-      button Generate Keys
-    li.logout
-      button Logout
+.content
+  #tabs
+    ul
+      li
+        a(href='#tabs-1')
+          button Create Bank
+      li
+        a(href='#tabs-2')
+          button Show All
+      li
+        a(href='#tabs-3')
+          button Generate Keys
+      li
+        a(href='#tabs-4')
+          button Log out
 
-  .content
-
-
-    .create
-      input(type='text', value= 'Bank Name')
+    #tabs-1
+      input(type='text')
       button Submit
-    .show
-    .generate
+    #tabs-2
+      p All Banks Keys are shown here
+    #tabs-3
+      p Key Generator

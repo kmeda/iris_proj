@@ -1,0 +1,21 @@
+.wrapper-out
+  ul.menu-bar
+    li
+      button.createBank Create Bank
+    li
+      button.showAll Show All
+    li
+      button.generate_keys Generate Keys
+    li
+      button.logout Logout
+
+  .content
+    .create
+      input(type='text', value= 'Bank Name')
+      button Submit
+    .show
+      .name
+      .keys
+
+    .generate
+      button.keygen Generate
